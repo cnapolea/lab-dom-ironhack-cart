@@ -1,3 +1,5 @@
+const { ConsoleMessage } = require('puppeteer');
+
 module.exports = {
   server: {
     command: 'serve . -l 4444',
